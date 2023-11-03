@@ -1,0 +1,44 @@
+[
+	{
+		"id": 1,
+		"title": "Termo Clasico 1.4lt",
+		"description": "Si estás buscando un termo de alta calidad para llevar tus bebidas con vos, no busques más.",
+		"price": 74000,
+		"thumbnail": [
+			"ruta-imagen-2.jpg",
+			"ruta-imagen-33.jpg"
+		],
+		"code": "001",
+		"category": "outdoor",
+		"stock": 30,
+		"status": true
+	},
+	{
+		"id": 2,
+		"title": "Taza DAYBREAK Cup + Plato 192 ml",
+		"description": "Comenzá el día con un capuchino perfectamente espumado o una taza de café o té recién hecho.",
+		"price": 37000,
+		"thumbnail": [
+			"ruta-imagen-6.jpg",
+			"ruta-imagen-23.jpg"
+		],
+		"code": "002",
+		"category": "outdooor",
+		"stock": 20,
+		"status": true
+	},
+	{
+		"id": 3,
+		"title": "Set mate + termo stanley 1.4lts",
+		"description": "Si estás buscando un termo de alta calidad para llevar tus bebidas con vos.",
+		"price": 83000,
+		"thumbnail": [
+			"fotodetermo.com/imagen.jpg",
+			"fotodetermo.com/imagen2.jpg"
+		],
+		"code": "003",
+		"category": "outdoor",
+		"stock": 10,
+		"status": true
+	}
+]

@@ -1,0 +1,19 @@
+{
+  "name": "clase05_npm",
+  "version": "1.0.0",
+  "description": "Este proyecto le pertenece a Lisandro",
+  "main": "handsOnLab.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lisandro",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "moment": "^2.29.4",
+    "mongoose": "^7.6.0",
+    "multer": "^1.4.5-lts.1",
+    "passport": "^0.6.0",
+    "socket.io": "^4.7.2"
+  }
+}

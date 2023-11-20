@@ -14,6 +14,8 @@ app.get('/api/users', async (req,res) =>{
     res.json({status: 'success', payload: users})
 })
 
+////////testing repositorio desde macOS
+
 //Devuelve un solo usuario
 app.get('/api/users/:uid', async (req, res) => {
     const userId = req.params.uid

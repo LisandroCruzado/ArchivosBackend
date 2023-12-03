@@ -1,0 +1,23 @@
+<div>
+    <h2>{{pokemon.name}}</h2>
+    <img src="{{pokemon.photo}}" height="80">
+    Type: {{pokemon.type}} <br>
+    Id: {{pokemon._id}}
+    <hr>
+
+    <button id="delete">Delete 🚮</button>
+</div>
+
+<script>
+    document.querySelector('#delete').onclick = e => {
+        const id = "{{ pokemon._id }}"
+        fetch(`/pokemon/${id}`, {method: 'delete'})
+            .then(() => {
+                alert('Eliminado con éxito')
+                document.location.href = '/pokemon'
+            })
+            .catch(e => {
+                alert('No se pudo eliminar')
+            })
+    }
+</script>
